@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="50" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="17" nextobjectid="237">
+ <editorsettings>
+  <export target="level1.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="mylove2" tilewidth="64" tileheight="64" tilecount="72" columns="36">
+  <image source="spritesheet (9).png" width="2314" height="128"/>
+ </tileset>
+ <tileset firstgid="73" name="gem" tilewidth="64" tileheight="64" tilecount="5" columns="5">
+  <image source="spritesheet (12).png" width="360" height="64"/>
+ </tileset>
+ <tileset firstgid="78" name="collectibles" tilewidth="32" tileheight="32" tilecount="18" columns="18">
+  <image source="spritesheet (13).png" width="576" height="32"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="50" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,20,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,23,24,25,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,53,54,57,58,0,0,23,24,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,2,2,2,2,6,0,0,0,34,35,0,0,0,29,30,31,0,0,0,17,2,2,2,22,0,0,0,0,0,0,0,1,4,6,0,0,0,0,0,0,0,0,0,0,0,0,73,34,
+0,37,38,38,38,38,42,0,0,17,18,20,22,0,1,3,3,3,6,0,0,53,54,55,57,58,0,0,0,0,0,0,0,7,38,12,0,0,0,0,0,0,0,0,0,0,0,1,5,5,
+0,37,8,8,8,8,42,0,0,53,54,57,58,0,7,38,39,41,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9,12,0,0,1,4,6,0,0,0,31,0,0,13,38,39,
+0,37,8,8,8,8,42,0,0,0,0,0,0,0,7,8,9,11,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,45,12,0,0,7,40,16,0,0,17,20,22,0,13,9,11,
+0,37,8,8,8,8,42,0,0,0,0,0,0,0,7,44,45,47,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,14,12,0,0,7,9,16,0,0,53,11,58,0,13,46,8,
+0,37,8,8,8,8,42,0,0,0,0,0,0,0,49,50,50,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,15,12,0,0,7,9,48,0,0,0,51,0,0,13,47,47
+</data>
+ </layer>
+ <objectgroup id="16" name="Coins">
+  <object id="217" x="192" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="218" x="256" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="219" x="576" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="220" x="640" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="221" x="704" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="222" x="896" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="223" x="960" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="224" x="1024" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="225" x="1344" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="227" x="1472" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="228" x="1600" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="229" x="1792" y="64" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="230" x="2048" y="128" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="231" x="2176" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="232" x="2240" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="233" x="2432" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="234" x="2560" y="320" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="235" x="2752" y="384" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="236" x="2880" y="320" width="64" height="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="Gem">
+  <object id="132" x="3072" y="384" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="8" name="Platforms">
+  <object id="107" x="64" y="384" width="384" height="384"/>
+  <object id="108" x="576" y="448" width="256" height="128"/>
+  <object id="109" x="896" y="448" width="320" height="320"/>
+  <object id="110" x="1344" y="384" width="320" height="128"/>
+  <object id="111" x="1728" y="256" width="256" height="128"/>
+  <object id="112" x="2112" y="384" width="192" height="384"/>
+  <object id="113" x="2432" y="512" width="192" height="256"/>
+  <object id="114" x="2752" y="576" width="192" height="192"/>
+  <object id="115" x="3008" y="448" width="192" height="320"/>
+ </objectgroup>
+ <objectgroup id="10" name="Enemies">
+  <object id="124" x="896" y="384" width="64" height="64"/>
+  <object id="130" x="1344" y="320" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="13" name="Start"/>
+</map>
